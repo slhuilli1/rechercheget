@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="Content">
+	<name>Plugin de recherche en méthode GET</name>
+	<author>Sebastien LHUILLIER</author>
+	<creationDate>Janvier 2023</creationDate>
+	<copyright>Sébastien LHUILLIER</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+	<authorUrl>www.sebastien-lhuillier.com</authorUrl>
+	<version>1.0</version>
+	<description>Récupère la chaine passée en URL et lance une recherche ans les articles</description>
+	<files>
+		<filename plugin="rechercheget">rechercheget.php</filename>
+		<filename>rechercheget.xml</filename>
+		<filename>style.css</filename>		
+	</files>	
+</extension>
+

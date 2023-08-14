@@ -1,0 +1,45 @@
+.resultats-recherche-get{
+	text-align:left;
+}
+
+.resultats-recherche-get .resultat-get a .un-resultat-id::before {
+  content: "Article : ";
+}
+
+.resultats-recherche-get .resultat-get a .un-resultat-id {
+  color:red;
+}
+
+.mes-resultats-de-recherches-get .libelle {
+  color: red;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.mes-resultats-de-recherches-get .libelle .terme {
+  color: blue;
+}
+
+.mes-resultats-de-recherches-get .libelle .terme::before {
+  color: blue;
+  content:open-quote;
+}
+
+.mes-resultats-de-recherches-get .libelle .terme::after {
+  color: blue;
+  content:close-quote;
+}
+
+.mes-resultats-de-recherches-get .un-resultat {
+  text-align: left;
+}
+
+.mes-resultats-de-recherches-get .un-resultat .id {
+  color: red;
+  float: left;
+  min-width: 4%;
+}
+
+.mes-resultats-de-recherches-get .un-resultat .title {
+  margin-left: 10px;
+}
